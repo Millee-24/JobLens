@@ -32,7 +32,7 @@
   - KeyBERT → Keyword extraction
   - TF-IDF + Cosine Similarity → Relevance scoring
 - **File Handling:** pdfplumber (PDF) and python-docx (DOCX)
-- **Database (Optional):** SQLite/PostgreSQL for storing user history and analytics.
+- **Deployed on Vercel**
 
 ---
 
@@ -61,4 +61,4 @@ python -m venv venv
 source venv/bin/activate    # Linux/Mac
 venv\Scripts\activate       # Windows
 pip install -r requirements.txt
-uvicorn main:app --reload
+
