@@ -1,4 +1,5 @@
-# JobLens – AI-Powered Resume Rater
+Link for the app: https://job-lens-alpha.vercel.app/
+# JobLens – AI-Powered Job Application Coach
 
 ## Overview
 **JobLens** is an AI-driven web application designed to help job seekers optimize their resumes and increase their chances of getting shortlisted. The platform analyzes a resume against a target job description (JD), highlights missing skills, computes a relevance score, and provides actionable improvement suggestions. It also assists recruiters with faster pre-screening tools.
@@ -61,4 +62,6 @@ python -m venv venv
 source venv/bin/activate    # Linux/Mac
 venv\Scripts\activate       # Windows
 pip install -r requirements.txt
+
+
 
