@@ -42,7 +42,7 @@ const Index = () => {
       formData.append('job_description', jobDescFile);
 
       // Replace with your actual backend URL
-      const response = await fetch('http://127.0.0.1:5000/analyze', {
+      const response = await fetch('https://strong-views-roll.loca.lt/analyze', {
         method: 'POST',
         body: formData,
       });
