@@ -42,7 +42,7 @@ const Index = () => {
       formData.append('job_description', jobDescFile);
 
       // Replace with your actual backend URL
-      const response = await fetch('https://61db26ff3d00.ngrok-free.app/analyze', {
+      const response = await fetch('https://6946e1006af3.ngrok-free.app/analyze', {
         method: 'POST',
         body: formData,
       });
